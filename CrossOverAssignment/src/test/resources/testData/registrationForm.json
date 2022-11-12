@@ -1,0 +1,106 @@
+{
+	"allFields":{
+		"firstName": "Agni",
+		"lastName": "Raja",
+		"email": "email@email.com",
+		"gender":"Male",
+		"dob": "23 November,1980",
+		"mobile":"1234567890",
+		"subjects": "Biology, Chemistry",
+		"hobbies": "Sports, Reading, Music",
+		"file": "/src/test/resources/test.png",
+		"fileName":"test.png",
+		"address": "No.5/2, Main Street,Bangalore",
+		"state": "NCR",
+		"city": "Delhi"				
+		
+	},
+	
+	"mandatoryFields":{
+		"firstName": "Jhansi",
+		"lastName": "Rani",
+		"gender":"Female",
+		"mobile":"9876543210"
+		
+	},
+	
+	"noFirstNamefield":{
+		"lastName": "Tara",
+		"gender":"Female",
+		"mobile":"5464564546"
+		
+	},
+	"noLastNamefield":{
+		"firstName": "Varun",
+		"gender":"Male",
+		"mobile":"1231231231"
+		
+	},
+	"noGenderfield":{
+		"firstName": "Sara",
+		"lastName": "Dev",
+		"mobile":"3334445556"
+		
+	},
+	"noMobilefield":{
+		"firstName": "Shiv",
+		"lastName": "Shakthi",
+		"gender":"Other"
+	},
+	
+	"invalidMobileField":{
+		"firstName": "Mohan",
+		"lastName": "Raja",
+		"gender":"Male",
+		"mobile":"abcdeggg"
+		
+	},
+	
+	"invalidEmailField":{
+		"firstName": "Tory",
+		"lastName": "Glar",
+		"email": "abcabc",
+		"gender":"Male",
+		"mobile":"1234567890"	
+	},
+	
+	"invalidPicture":{
+		"firstName": "Claire",
+		"lastName": "Wright",
+		"email": "test@email.com",
+		"gender":"Female",
+		"mobile":"3453453335",
+		"hobbies": "Music",
+		"file": "/src/test/resources/test.pdf",
+		"fileName":"test.pdf"				
+	},
+	
+	"invalidLastNamefield":{
+		"firstName": "Agni",
+		"lastName": "!!!!!",
+		"gender":"Male",
+		"mobile":"1111122222"
+	},
+	
+	"invalidFirstNamefield":{
+		"firstName": "**123",
+		"lastName": "Ward",
+		"gender":"Male",
+		"mobile":"1111222222"
+	},
+	
+	"invalidDOBfield":{
+		"firstName": "**123",
+		"lastName": "Ward",
+		"gender":"Male",
+		"mobile":"1111222222",
+		"dob": "12 January,2026"
+	},
+	
+	"uniqueFields":{
+		"firstName": "Ram",
+		"lastName": "Bhim",
+		"gender":"Other",
+		"mobile":"2223332223"
+	}
+}
