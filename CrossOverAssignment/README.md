@@ -12,8 +12,8 @@ Implemented a basic cucumber framework integrated with Maven and TestNG using Ja
 ###### **src/test/resources/config.properties** - Contains all the common properties.  
 
 **Steps to run the test cases through terminal** 
-######  1. Download the project folder to the local directory
-######  2. Open terminal and go to the project folder
+######  1. Download the project folder to the local directory ex:assignment
+######  2. Open terminal and go to the project folder - cd assignment
 ######  3. Run the command "mvn test" 
 ######  4. If mvn command is not found, install maven - For Mac OS, "brew install maven". For other OS, "sudo apt-get install maven -y".
 ######  5. Once tests are completed, you can find the reports under the test-output folder
