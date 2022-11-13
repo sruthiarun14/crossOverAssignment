@@ -328,7 +328,12 @@ public class CommonFunctions {
 			element = driver.findElement(By.xpath(locator));
 			((JavascriptExecutor)driver).executeScript("arguments[0].scrollIntoView(true);", element);
 			element.click();
-			element.sendKeys(Keys.COMMAND+"a", Keys.BACK_SPACE);
+			String os = System.getProperty("os.name");
+			if (os.toLowerCase().trim().contains("mac")){
+				element.sendKeys(Keys.COMMAND+"a", Keys.BACK_SPACE);
+			}else{
+				element.sendKeys(Keys.CONTROL+"a", Keys.BACK_SPACE);
+			}
 			Thread.sleep(300);
 			element.sendKeys(text);
 			element.sendKeys(Keys.RETURN);
